@@ -35,8 +35,6 @@ class FactoryProducer {
 
 interface Shape {
    void draw();
-
-   void area(int i);
 }
 
 class RoundedRectangle implements Shape {
